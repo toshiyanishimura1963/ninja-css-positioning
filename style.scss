@@ -1,0 +1,97 @@
+.tut4 {
+    background: #eee;
+
+    .wrapper {
+        background: #fff;
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .wrapper:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .service {
+        float: left;
+        background: #eee;
+        width: 29.33%;
+        margin: 1%;
+        padding: 1%;
+        height: 140px;
+
+        h1,
+        p {
+            color: #999;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+    }
+
+    .services:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+
+    .content {
+        background: #ccc;
+        padding: 10px;
+        clear: both;
+        margin-top: 100px;
+        p {
+            -webkit-column-count: 3;
+            column-count: 3;
+            -webkit-column-gap: 30px;
+            column-gap: 30px;
+            -webkit-column-rule: 1px solid #ccc;
+            column-rule: 1px solid #fff;
+            text-align: justify;
+        }
+    }
+
+    section, aside{
+        width: 46%;
+        float: left;
+        padding: 1%;
+        margin: 1%;
+        background: #eee;
+    }
+
+    .column::after{
+        content:"";
+        display: block;
+        clear: both;
+    }
+
+    // img {
+    //     float: left;
+    //     margin: 10px;
+    // }
+}
+
+
+.tut3 {
+    p {
+        padding: 20px;
+        background: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.4em;
+    }
+}
+
+.tut2 {
+
+    p,
+    a {
+        width: 20%;
+        margin: 20px;
+        padding: 30px;
+        border: 2px solid black;
+        // display: block;
+        display: inline-block;
+    }
+}
